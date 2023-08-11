@@ -1,2 +1,4 @@
 ARG VERSION=latest
+ARG TOKEN
+ENV TOKEN=$TOKEN
 FROM browserless/chrome:$VERSION
